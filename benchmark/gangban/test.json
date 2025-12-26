@@ -1,0 +1,467 @@
+{
+    "data_root": "./benchmark/gangban/images",
+    "data_list": [
+        {
+            "img_name": "img_0.jpg",
+            "caption": "",
+            "annotations": [
+                {
+                    "polygon": [
+                        [
+                            38,
+                            43
+                        ],
+                        [
+                            920,
+                            43
+                        ],
+                        [
+                            920,
+                            215
+                        ],
+                        [
+                            38,
+                            215
+                        ]
+                    ],
+                    "text": "Tiredness",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 1
+                },
+                {
+                    "polygon": [
+                        [
+                            275,
+                            264
+                        ],
+                        [
+                            665,
+                            264
+                        ],
+                        [
+                            665,
+                            450
+                        ],
+                        [
+                            275,
+                            450
+                        ]
+                    ],
+                    "text": "kills",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 2
+                },
+                {
+                    "polygon": [
+                        [
+                            128,
+                            705
+                        ],
+                        [
+                            483,
+                            705
+                        ],
+                        [
+                            483,
+                            839
+                        ],
+                        [
+                            128,
+                            839
+                        ]
+                    ],
+                    "text": "short",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 3
+                },
+                {
+                    "polygon": [
+                        [
+                            542,
+                            710
+                        ],
+                        [
+                            938,
+                            710
+                        ],
+                        [
+                            938,
+                            841
+                        ],
+                        [
+                            542,
+                            841
+                        ]
+                    ],
+                    "text": "break",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 4
+                },
+                {
+                    "polygon": [
+                        [
+                            87,
+                            884
+                        ],
+                        [
+                            457,
+                            884
+                        ],
+                        [
+                            457,
+                            1021
+                        ],
+                        [
+                            87,
+                            1021
+                        ]
+                    ],
+                    "text": "could",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 5
+                },
+                {
+                    "polygon": [
+                        [
+                            517,
+                            919
+                        ],
+                        [
+                            831,
+                            919
+                        ],
+                        [
+                            831,
+                            1024
+                        ],
+                        [
+                            517,
+                            1024
+                        ]
+                    ],
+                    "text": "save",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 6
+                },
+                {
+                    "polygon": [
+                        [
+                            166,
+                            1095
+                        ],
+                        [
+                            468,
+                            1095
+                        ],
+                        [
+                            468,
+                            1231
+                        ],
+                        [
+                            166,
+                            1231
+                        ]
+                    ],
+                    "text": "your",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 7
+                },
+                {
+                    "polygon": [
+                        [
+                            530,
+                            1069
+                        ],
+                        [
+                            743,
+                            1069
+                        ],
+                        [
+                            743,
+                            1206
+                        ],
+                        [
+                            530,
+                            1206
+                        ]
+                    ],
+                    "text": "life",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 8
+                }
+            ]
+        },
+        {
+            "img_name": "img_1.png",
+            "caption": "",
+            "annotations": [
+                {
+                    "polygon": [
+                        [
+                            395,
+                            72
+                        ],
+                        [
+                            850,
+                            72
+                        ],
+                        [
+                            850,
+                            144
+                        ],
+                        [
+                            395,
+                            144
+                        ]
+                    ],
+                    "text": "0123456789",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 1
+                },
+                {
+                    "polygon": [
+                        [
+                            375,
+                            180
+                        ],
+                        [
+                            875,
+                            180
+                        ],
+                        [
+                            875,
+                            250
+                        ],
+                        [
+                            375,
+                            250
+                        ]
+                    ],
+                    "text": "ABCDEFGHIJK",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 2
+                },
+                {
+                    "polygon": [
+                        [
+                            370,
+                            310
+                        ],
+                        [
+                            1000,
+                            310
+                        ],
+                        [
+                            1000,
+                            390
+                        ],
+                        [
+                            370,
+                            390
+                        ]
+                    ],
+                    "text": "IJKLMNOPQRSTUV",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 3
+                },
+                {
+                    "polygon": [
+                        [
+                            285,
+                            540
+                        ],
+                        [
+                            1010,
+                            540
+                        ],
+                        [
+                            1010,
+                            610
+                        ],
+                        [
+                            285,
+                            610
+                        ]
+                    ],
+                    "text": "ST-UVW-XYZ012345",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "img_name": "img_2.png",
+            "caption": "",
+            "annotations": [
+                {
+                    "polygon": [
+                        [
+                            385,
+                            55
+                        ],
+                        [
+                            840,
+                            55
+                        ],
+                        [
+                            840,
+                            130
+                        ],
+                        [
+                            385,
+                            130
+                        ]
+                    ],
+                    "text": "0123456789",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 1
+                },
+                {
+                    "polygon": [
+                        [
+                            370,
+                            160
+                        ],
+                        [
+                            870,
+                            160
+                        ],
+                        [
+                            870,
+                            230
+                        ],
+                        [
+                            370,
+                            230
+                        ]
+                    ],
+                    "text": "ABCDEFGHIJK",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 2
+                },
+                {
+                    "polygon": [
+                        [
+                            370,
+                            290
+                        ],
+                        [
+                            1000,
+                            290
+                        ],
+                        [
+                            1000,
+                            360
+                        ],
+                        [
+                            370,
+                            360
+                        ]
+                    ],
+                    "text": "IJKLMNOPQRSTUV",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 3
+                },
+                {
+                    "polygon": [
+                        [
+                            285,
+                            520
+                        ],
+                        [
+                            1010,
+                            520
+                        ],
+                        [
+                            1010,
+                            600
+                        ],
+                        [
+                            285,
+                            600
+                        ]
+                    ],
+                    "text": "ST-UVW-XYZ012345",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "img_name": "img_218.jpg",
+            "caption": "",
+            "annotations": [
+                {
+                    "polygon": [
+                        [
+                            721,
+                            233
+                        ],
+                        [
+                            1064,
+                            233
+                        ],
+                        [
+                            1064,
+                            343
+                        ],
+                        [
+                            721,
+                            343
+                        ]
+                    ],
+                    "text": "2076",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 1
+                }
+            ]
+        },
+        {
+            "img_name": "img_3.jpg",
+            "caption": "",
+            "annotations": [
+                {
+                    "polygon": [
+                        [
+                            1250,
+                            910
+                        ],
+                        [
+                            2310,
+                            910
+                        ],
+                        [
+                            2310,
+                            1040
+                        ],
+                        [
+                            1250,
+                            1040
+                        ]
+                    ],
+                    "text": "D19D40A1E1484",
+                    "language": "Latin",
+                    "valid": true,
+                    "pos": 1
+                }
+            ]
+        }
+    ]
+}

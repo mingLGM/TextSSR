@@ -25,7 +25,7 @@ def generate_mask(trans_image, im_shape, resolution, polygon, location):
     mask = np.array(mask.convert("L"))[location[1]:location[3], location[0]:location[2]]
     transform = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((resolution, resolution))
+            transforms.Resize((resolution, resolution), antialias=True)
         ])
     mask = transform(mask)
     mask = torch.where(mask < 0.5, torch.tensor(0.0), torch.tensor(1.0))
@@ -101,7 +101,7 @@ class AnyWordDataset(Dataset):
         self.transform = transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5)),
-            transforms.Resize((resolution, resolution))
+            transforms.Resize((resolution, resolution), antialias=True)
         ])
         random.seed(seed)
 
@@ -130,7 +130,8 @@ class AnyWordDataset(Dataset):
             'masked_image': masked_image,
             'ttf_img': draw_ttf,
             'glyph': glyph,
-            "text": text
+            "text": text,
+            "rect": mask_rect
             }
         return info
 
