@@ -1,4 +1,4 @@
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Dict, Tuple
 import PIL
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
@@ -67,6 +67,7 @@ class StableDiffusionPipeline(DiffusionPipeline):
             mask_image (Union[torch.FloatTensor, PIL.Image.Image]): 被遮罩的原始图像。
             mask (Union[torch.FloatTensor, PIL.Image.Image]): 遮罩图像。
             num_inference_steps (int): 推理迭代次数，默认为 50。
+            guidance_scale (float): 引导系数，默认为 7.5。
             device (torch.device): 使用的计算设备。
 
         返回:

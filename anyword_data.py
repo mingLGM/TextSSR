@@ -122,6 +122,7 @@ class AnyWordDataset(Dataset):
         text = gt['text']
         draw_ttf = self.draw_text(text[:self.max_len])
         glyph = self.draw_glyph(text, mask_rect) 
+        file_name = os.path.basename(img_path)
         info = {
             # "full_image": torch.tensor(full_image),
             # "location": torch.tensor(location),
@@ -131,7 +132,8 @@ class AnyWordDataset(Dataset):
             'ttf_img': draw_ttf,
             'glyph': glyph,
             "text": text,
-            "rect": mask_rect
+            "mask_rect": mask_rect,
+            "file_name": file_name
             }
         return info
 
